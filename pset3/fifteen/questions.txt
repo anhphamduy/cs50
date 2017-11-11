@@ -1,0 +1,4 @@
+0. From 3D to 9D
+1. Multidimensional array
+2. greet()
+3. init(), draw(), move(), won()

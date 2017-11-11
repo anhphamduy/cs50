@@ -1,0 +1,21 @@
+1.  "stdint.h" is a header file in the C standard library introduced in the C99 standard library to allow programmers to write
+more protable code by providing a set of typedefs that specify exact width-integer types, together with the maximum and minimum
+allowable values for each type.
+2.  Since data types in C do not have fixed-size, or in other words, they can change regards to the different computer architecture,
+so we have to use uint8_t, uint32_t, int32_t, and uint16_t for more unique.
+3.  BYTE: 1 byte
+    LONG: 4 bytes
+    DWORD:4 bytes
+    WORD: 2 bytes
+4.  ASCII: BM
+    HEX: 42 4D
+    Decimal: 16973
+5.  bfSize = biSize + 54s.
+6.  The origin will be reversed.
+7.  biBitCount
+8.  Because if the file does not exist, and then fopen will return NULL.
+9.  It will be number of elements and in this case, it is size of the bitmap file header.
+10. 3
+11.It sets the file position indicator for the stream pointed to by stram. The new position, measure in bytes, is obtained by adding
+offset bytes to the position specified by whence.
+12. It is the current position of the file pointer.
